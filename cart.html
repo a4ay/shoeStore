@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--===== MAIN JS =====-->
+    <script src="./assets/js/main.js" defer></script>
+    <style>
+        main{
+            min-height: 80vh;
+        }
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <!--===== HEADER =====-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-grid" >
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bxs-grid"></i>
+            </div>
+
+            <a href="#" class="nav__logo">Roby</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item "><a href="./index.html" class="nav__link" active>Home</a></li>
+                    <li class="nav__item"><a href="./index.html#featured" class="nav__link">Featured</a></li>
+                    <li class="nav__item"><a href="./index.html#women" class="nav__link">Women</a></li>
+                    <li class="nav__item"><a href="./index.html#new" class="nav__link">New</a></li>
+                    <li class="nav__item"><a href="./shop.html" class="nav__link">Shop</a></li>
+                    <li class="nav__item"><a href="./orders.html" class="nav__link">Orders</a></li>
+                    <li class="nav__item"><a href="./login.html" class="nav__link"> Login </a></li>
+                    <!-- <i class='bx bx-user'></i> -->
+                </ul>
+            </div>
+
+            <!-- <a href="#"><i class='bx bx-user'></i></a>
+            <a href="#"><i class="bx bx-shopping-bag"></i></a> -->
+
+            <div class="nav__shop">
+                
+                <a href="#bag" class="cart" ><i class="bx bx-shopping-bag"></i></a>
+                <!-- <i class='bx bx-user'></i>
+                <i class="bx bx-shopping-bag"></i> -->
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="l-main"> 
+        <section class="cart section">
+            <div class="cart__container bd-grid">
+                <div class="cart__item">
+
+                    <div class="cart__inside">
+                        <img src="./assets/img/collection1.png" alt="">
+                    </div>
+                    <div class="cart__inside">
+                        <h3 class="cart__title">New Nike RN Sneaker</h3>
+                        <p class="cart__description">Get 10% discount for all products</p>
+                        <p class="cart__description">Quantity: 1</p>
+                    </div>
+    
+                    <div class="cart__inside">
+                        <p class="cart__description">Size: L</p>
+                        <p class="cart__description">Price: $99.9</p>
+                        <button class="cart__description cart__button">Remove</button>
+                    </div>
+
+                </div>
+                <div class="cart__item">
+
+                    <div class="cart__inside">
+                        <img src="./assets/img/collection1.png" alt="">
+                    </div>
+                    <div class="cart__inside">
+                        <h3 class="cart__title">New Nike RN Sneaker</h3>
+                        <p class="cart__description">Get 10% discount for all products</p>
+                        <p class="cart__description">Quantity: 1</p>
+                    </div>
+    
+                    <div class="cart__inside">
+                        <p class="cart__description">Size: L</p>
+                        <p class="cart__description">Price: $99.9</p>
+                        <button class="cart__description cart__button">Remove</button>
+                    </div>
+
+                </div>
+                <div class="cart__item">
+                    <div class="cart__inside">
+                        <h3 class="cart__title">Total: $1777.5   </h3>
+                    </div>
+                    <div class="cart__inside">
+                        <button class="cart__button">Place Order</button>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__box">
+                <h3 class="footer__title">Roby</h3>
+                <p class="footer__description">New collection of shoes 2020.</p>
+            </div>
+            <div class="footer__box">
+                <h3 class="footer__title">EXPLORE</h3>
+                <ul>
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#featured" class="footer__link">Featured</a></li>
+                    <li><a href="#women" class="footer__link"></a>Women</li>
+                    <li><a href="#new" class="footer__link"></a>New</li>
+                </ul>
+            </div>
+            <div class="footer__box">
+                <h3 class="footer__title">SUPPORT</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Product Help</a></li>
+                    <li><a href="#" class="footer__link">Customer Care</a></li>
+                    <li><a href="#" class="footer__link"></a>Athorized service</li>
+                </ul>
+            </div>
+            <div class="footer__box">
+                <a href="#" class="footer__social"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="footer__social"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="footer__social"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="footer__social"><i class="bx bxl-google"></i></a>
+            </div>
+        </div>
+        <p class="footer__copy">&#169; 2020 Roby. All right reserved</p>
+    </footer>
+    
+    
+</body>
+</html>
